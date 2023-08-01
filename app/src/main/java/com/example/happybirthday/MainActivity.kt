@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     color = MaterialTheme.colors.background
                 ) {
-                    GreetingImage(message = "Happy Birthday Sammal", from = "From Pandey")
+                    GreetingImage(message = "Happy Birthday Sammal", from = "From PandeyJi")
                 }
             }
         }
@@ -40,9 +40,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun BirthdayCardPreview() {
-
     HappyBirthdayTheme {
-        GreetingImage(message = "Happy Birthday Sammal!", from = "From Emma")
+        GreetingImage(message = "Happy Birthday Sammal!", from = "From PandeyJi")
     }
 }
 @Composable
